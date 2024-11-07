@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  php:
+    image: php:8.2-apache
+    container_name: portifolio_php
+    ports:
+      - "8080:80" # Mapeia a porta 80 do container para a 8080 no host
+    volumes:
+      - ./public:/var/www/html   # Mapeia o diretório public do host para o diretório do Apache
+      - ./app:/var/www/app       # Inclui o app como parte da API (caso necessário futuro)
+    environment:
+      APACHE_DOCUMENT_ROOT: /var/www/html # Define o diretório raiz do Apache
+    restart: always
