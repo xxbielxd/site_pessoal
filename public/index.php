@@ -3,9 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Só Uso GPT</title>
-  <link href="components/bootstrap-5.3.3/css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/index.css" rel="stylesheet"> <!-- Seu arquivo customizado de CSS -->
+  <title>Só Uso GPT</title>  
 </head>
 <body class="text-light">
   <!-- Navbar -->
@@ -49,8 +47,6 @@
       </div>
     </div>
   </div>
-
-  <!-- Scripts -->
-  <script src="components/bootstrap-5.3.3/js/bootstrap.bundle.min.js"></script>
 </body>
+<script src="js/dist/bundle.js"></script> <!-- JS Gerado pelo Webpack -->
 </html>

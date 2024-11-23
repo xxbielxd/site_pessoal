@@ -1,0 +1,17 @@
+# Node.js
+public/node_modules
+public/npm-debug.log*
+public/yarn-debug.log*
+public/yarn-error.log*
+public/pnpm-debug.log*
+
+# Webpack
+public/js/dist/ 
+*.bundle.js           
+*.bundle.js.map
+
+# Logs e Relatórios do Sistema
+*.log                  
+.idea/                
+.vscode/                
+.DS_Store
